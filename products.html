@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Products | PearlPro Dental Supply</title>
+  <meta name="description" content="Browse dental products, view descriptions, and request orders by email.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="progress-bar" data-progress></div>
+  <header class="site-header" data-header>
+    <div class="nav-shell">
+      <a class="brand" href="index.html" aria-label="PearlPro Dental Supply home">
+        <span class="brand-mark">PP</span>
+        <span class="brand-word"><span>PearlPro</span><span>Dental Supply</span></span>
+      </a>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-label="Toggle navigation" aria-expanded="false"><span></span></button>
+      <nav class="site-nav" data-nav aria-label="Primary navigation">
+        <a data-page href="index.html">Home</a>
+        <a data-page href="products.html">Products</a>
+        <a data-page href="product-detail.html">Details</a>
+        <a data-page href="order.html">Order</a>
+        <a data-page href="about.html">About</a>
+        <a data-page href="contact.html">Contact</a>
+      </nav>
+      <a class="header-action" href="order.html">Order request</a>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <section class="page-hero">
+      <div class="container page-hero-inner">
+        <div class="reveal">
+          <p class="eyebrow">Product catalog</p>
+          <h1 class="display-title">Dental essentials, ready to quote.</h1>
+          <p class="lead">Browse products, compare use cases, and send an order request without payment. The owner receives the details by email.</p>
+        </div>
+        <aside class="hero-stat reveal">
+          <strong data-count="6" data-suffix="+">0+</strong>
+          <p>Core dental product families with room to expand the catalog.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="toolbar reveal">
+          <label class="search-box">
+            <span class="eyebrow">Find product</span>
+            <input type="search" data-product-search placeholder="Search by product, SKU, category, or use case">
+          </label>
+          <div class="filter-row" aria-label="Product filters">
+            <button class="filter-button is-active" type="button" data-filter="all">All</button>
+            <button class="filter-button" type="button" data-filter="restorative">Restorative</button>
+            <button class="filter-button" type="button" data-filter="sterilization">Sterilization</button>
+            <button class="filter-button" type="button" data-filter="disposable">Disposable</button>
+            <button class="filter-button" type="button" data-filter="whitening">Whitening</button>
+            <button class="filter-button" type="button" data-filter="impression">Impression</button>
+          </div>
+        </div>
+
+        <div class="product-grid stagger" data-product-grid>
+          <article class="product-card" data-product-card="steriseal-pouch-rolls">
+            <div class="product-thumb product-thumb--steriseal" role="img" aria-label="SteriSeal Pouch Rolls"></div>
+            <div class="product-body">
+              <div class="product-meta">
+                <span class="tag">Sterilization</span>
+                <span class="tag">PP-STR-240</span>
+              </div>
+              <h3>SteriSeal Pouch Rolls</h3>
+              <p>Transparent blue sterilization rolls with medical-grade seals for fast, clean instrument packing.</p>
+              <div class="product-actions">
+                <a class="button button-secondary" href="product-detail.html?product=steriseal-pouch-rolls">Details</a>
+                <a class="button button-primary" href="order.html?product=steriseal-pouch-rolls">Order</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-product-card="mirrorlite-exam-kit">
+            <div class="product-thumb product-thumb--mirrorlite" role="img" aria-label="MirrorLite Examination Kit"></div>
+            <div class="product-body">
+              <div class="product-meta">
+                <span class="tag">Disposable</span>
+                <span class="tag">PP-EXM-112</span>
+              </div>
+              <h3>MirrorLite Examination Kit</h3>
+              <p>Pre-packed mirrors, explorers, and cotton accessories that help teams reset rooms faster.</p>
+              <div class="product-actions">
+                <a class="button button-secondary" href="product-detail.html?product=mirrorlite-exam-kit">Details</a>
+                <a class="button button-primary" href="order.html?product=mirrorlite-exam-kit">Order</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-product-card="flowcore-composite-syringes">
+            <div class="product-thumb product-thumb--flowcore" role="img" aria-label="FlowCore Composite Syringes"></div>
+            <div class="product-body">
+              <div class="product-meta">
+                <span class="tag">Restorative</span>
+                <span class="tag">PP-FLW-310</span>
+              </div>
+              <h3>FlowCore Composite Syringes</h3>
+              <p>Smooth-flow restorative composite in high-demand shades for precise placement and polish.</p>
+              <div class="product-actions">
+                <a class="button button-secondary" href="product-detail.html?product=flowcore-composite-syringes">Details</a>
+                <a class="button button-primary" href="order.html?product=flowcore-composite-syringes">Order</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-product-card="hydrawhiten-take-home-kit">
+            <div class="product-thumb product-thumb--hydrawhiten" role="img" aria-label="HydraWhiten Take-home Kit"></div>
+            <div class="product-body">
+              <div class="product-meta">
+                <span class="tag">Whitening</span>
+                <span class="tag">PP-WHT-090</span>
+              </div>
+              <h3>HydraWhiten Take-home Kit</h3>
+              <p>Cleanly packaged whitening trays and gel accessories for professional take-home protocols.</p>
+              <div class="product-actions">
+                <a class="button button-secondary" href="product-detail.html?product=hydrawhiten-take-home-kit">Details</a>
+                <a class="button button-primary" href="order.html?product=hydrawhiten-take-home-kit">Order</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-product-card="precision-impression-set">
+            <div class="product-thumb product-thumb--precision" role="img" aria-label="Precision Impression Set"></div>
+            <div class="product-body">
+              <div class="product-meta">
+                <span class="tag">Impression</span>
+                <span class="tag">PP-IMP-775</span>
+              </div>
+              <h3>Precision Impression Set</h3>
+              <p>Impression trays, material accessories, and mixing tips bundled for predictable case starts.</p>
+              <div class="product-actions">
+                <a class="button button-secondary" href="product-detail.html?product=precision-impression-set">Details</a>
+                <a class="button button-primary" href="order.html?product=precision-impression-set">Order</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-product-card="comfortcare-disposable-pack">
+            <div class="product-thumb product-thumb--comfort" role="img" aria-label="ComfortCare Disposable Pack"></div>
+            <div class="product-body">
+              <div class="product-meta">
+                <span class="tag">Daily Essentials</span>
+                <span class="tag">PP-CMF-520</span>
+              </div>
+              <h3>ComfortCare Disposable Pack</h3>
+              <p>Gloves, masks, cotton rolls, barrier sheets, and suction accessories packed for daily use.</p>
+              <div class="product-actions">
+                <a class="button button-secondary" href="product-detail.html?product=comfortcare-disposable-pack">Details</a>
+                <a class="button button-primary" href="order.html?product=comfortcare-disposable-pack">Order</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <div class="container split">
+        <div class="image-feature reveal">
+          <img src="assets/images/catalog-dental-products.png" alt="Dental products shown in a four section catalog layout">
+          <div class="image-feature-caption">
+            <h3>Quote before fulfillment</h3>
+            <p>Product requests go straight to the owner for stock, price, and delivery confirmation.</p>
+          </div>
+        </div>
+        <div class="reveal">
+          <p class="eyebrow">How ordering works</p>
+          <h2>Choose the product. Send the request. Wait for confirmation.</h2>
+          <p class="lead">Every order button carries the selected item into the form, so the customer never has to type product names manually.</p>
+          <ul class="check-list">
+            <li>Essential clinic and contact fields are required.</li>
+            <li>Quantity, delivery timing, and urgency help the owner prioritize.</li>
+            <li>The generated email is editable before the customer sends it.</li>
+          </ul>
+          <a class="button button-primary" href="order.html">Open order form</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="index.html">
+            <span class="brand-mark">PP</span>
+            <span class="brand-word"><span>PearlPro</span><span>Dental Supply</span></span>
+          </a>
+          <p>Modern dental supply ordering for clinics that prefer quote-based fulfillment.</p>
+        </div>
+        <div class="footer-links">
+          <b>Pages</b>
+          <a href="products.html">Products</a>
+          <a href="product-detail.html">Product details</a>
+          <a href="order.html">Order request</a>
+        </div>
+        <div class="footer-links">
+          <b>Company</b>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="products.html">Catalog</a>
+        </div>
+        <div>
+          <b>Owner email</b>
+          <p>orders@pearlprodental.com<br>+1 555 019 2048</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>2026 PearlPro Dental Supply. Static demo website.</span>
+        <span>No online payments are collected.</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

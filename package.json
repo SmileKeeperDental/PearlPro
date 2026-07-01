@@ -1,0 +1,12 @@
+{
+  "name": "pearlpro-dental-supply",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static dental products website with a small backend order email endpoint.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
