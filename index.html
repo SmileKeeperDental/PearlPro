@@ -9,6 +9,32 @@
   <script src="assets/js/main.js" defer></script>
 
   <style>
+
+
+    /* Logo Image Sizing */
+    .brand {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+    .brand-logo {
+      height: 70px; 
+      width: auto;
+      object-fit: contain;
+      /* This zooms the image in by 1.5x, eating up the extra white space */
+      transform: scale(1.8); 
+      transform-origin: left center; /* Keeps it aligned to the left */
+    }
+    .footer-logo {
+      height: 100px;
+      margin-bottom: 1rem;
+      transform: scale(1.8);
+      transform-origin: left center;
+      background-color: #ffffff;
+      border-radius: 8px;
+    }
+
+    
     :root {
       /* Extracted directly from the Magenta Dental Supply logo */
       --magenta-primary: #B00D66; /* Deep magenta from the 'M' */
