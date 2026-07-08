@@ -3,19 +3,126 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contact | PearlPro Dental Supply</title>
-  <meta name="description" content="Contact PearlPro Dental Supply for dental product quotes, support, and order questions.">
+  <title>Contact | Magenta Dental Supply</title>
+  <meta name="description" content="Contact Magenta Dental Supply for dental product quotes, support, and order questions.">
   <link rel="stylesheet" href="assets/css/styles.css">
   <script src="assets/js/main.js" defer></script>
+
+  <style>
+    :root {
+      /* Extracted directly from the Magenta Dental Supply logo */
+      --magenta-primary: #B00D66; /* Deep magenta from the 'M' */
+      --magenta-light: #E01977;   /* Lighter pink/magenta from the tooth curves */
+      --magenta-grey: #7D7C7E;    /* Grey from 'DENTAL SUPPLY' */
+    }
+
+    /* Text & Heading Colors */
+    h1, h2, h3, .eyebrow {
+      color: var(--magenta-primary) !important;
+    }
+    
+    .eyebrow {
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    /* Buttons */
+    .button-primary {
+      background: linear-gradient(135deg, var(--magenta-primary), var(--magenta-light)) !important;
+      color: #ffffff !important;
+      border: none !important;
+      transition: opacity 0.3s ease;
+    }
+    
+    .button-primary:hover {
+      opacity: 0.9;
+    }
+
+    /* Accents & Icons */
+    .progress-bar { background-color: var(--magenta-primary) !important; }
+    .trust-chip .dot { background-color: var(--magenta-light) !important; }
+    .mini-icon { color: var(--magenta-primary) !important; font-weight: bold; }
+    .feature-icon { 
+      color: var(--magenta-primary) !important; 
+      border-color: var(--magenta-light) !important;
+    }
+    .quote-panel { border-top: 4px solid var(--magenta-primary) !important; }
+    .tag { 
+      background-color: var(--magenta-light) !important; 
+      color: white !important; 
+    }
+    .filter-button.is-active {
+      background-color: var(--magenta-primary) !important;
+      color: white !important;
+      border-color: var(--magenta-primary) !important;
+    }
+    .timeline-step h3 { color: var(--magenta-primary) !important; }
+    .timeline-step span { color: var(--magenta-light) !important; font-weight: bold; }
+    .stat-card strong { color: var(--magenta-primary) !important; }
+    .contact-icon { color: var(--magenta-primary) !important; font-weight: bold; }
+    .route-line { background-color: var(--magenta-light) !important; }
+    .map-pin { background-color: var(--magenta-primary) !important; }
+    
+    /* Global Links */
+    a, .text-link { color: var(--magenta-primary); }
+    a:hover, .text-link:hover { color: var(--magenta-light); }
+    .site-nav a:hover, .site-nav a[aria-current="page"] {
+      color: var(--magenta-primary) !important;
+      border-bottom-color: var(--magenta-primary) !important;
+    }
+
+    /* -----------------------------------------
+       FOOTER OVERRIDES 
+       ----------------------------------------- */
+    .site-footer {
+      background-color: #3A3B3E !important; /* Premium Charcoal Grey derived from logo */
+      color: #e0e0e0 !important;
+    }
+    .site-footer p, .site-footer span {
+      color: #b0b0b0 !important; /* Soft grey text for readability */
+    }
+    .site-footer b {
+      color: #ffffff !important;
+    }
+    .site-footer a {
+      color: #ffffff !important;
+      transition: color 0.3s ease !important;
+    }
+    .site-footer a:hover {
+      color: var(--magenta-light) !important; /* Magenta hover effect */
+    }
+    .site-footer .footer-bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+    }
+
+    /* Logo Image Sizing */
+    .brand {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+    .brand-logo {
+      height: 55px; 
+      width: auto;
+      object-fit: contain;
+    }
+    .footer-logo {
+      height: 80px;
+      margin-bottom: 1rem;
+      /* Optional: If your logo has a white background, adding a subtle glow or background radius can help it pop on the dark footer */
+      background-color: #ffffff;
+      padding: 5px;
+      border-radius: 8px;
+    }
+  </style>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <div class="progress-bar" data-progress></div>
   <header class="site-header" data-header>
     <div class="nav-shell">
-      <a class="brand" href="index.html" aria-label="PearlPro Dental Supply home">
-        <span class="brand-mark">PP</span>
-        <span class="brand-word"><span>PearlPro</span><span>Dental Supply</span></span>
+      <a class="brand" href="index.html" aria-label="Magenta Dental Supply home">
+        <img src="assets/images/magenta-logo.jpg" alt="Magenta Dental Supply" class="brand-logo">
       </a>
       <button class="nav-toggle" type="button" data-nav-toggle aria-label="Toggle navigation" aria-expanded="false"><span></span></button>
       <nav class="site-nav" data-nav aria-label="Primary navigation">
@@ -52,9 +159,9 @@
           <h2>Get a fast answer before you reorder.</h2>
           <p class="lead">Product orders go through the backend. For quick general questions, the contact form can still prepare a direct email message.</p>
           <div class="contact-methods">
-            <a class="contact-method" href="mailto:orders@pearlprodental.com">
+            <a class="contact-method" href="mailto:orders@magentadentalsupply.com">
               <span class="contact-icon">EM</span>
-              <div><b>orders@pearlprodental.com</b><span>Quotes, order requests, and product questions.</span></div>
+              <div><b>orders@magentadentalsupply.com</b><span>Quotes, order requests, and product questions.</span></div>
             </a>
             <a class="contact-method" href="tel:+15550192048">
               <span class="contact-icon">PH</span>
@@ -136,8 +243,7 @@
       <div class="footer-grid">
         <div>
           <a class="brand" href="index.html">
-            <span class="brand-mark">PP</span>
-            <span class="brand-word"><span>PearlPro</span><span>Dental Supply</span></span>
+            <img src="assets/images/magenta-logo.jpg" alt="Magenta Dental Supply" class="brand-logo footer-logo">
           </a>
           <p>Modern dental supply ordering for clinics that prefer quote-based fulfillment.</p>
         </div>
@@ -155,11 +261,11 @@
         </div>
         <div>
           <b>Owner email</b>
-          <p>orders@pearlprodental.com<br>+1 555 019 2048</p>
+          <p>orders@magentadentalsupply.com<br>+1 555 019 2048</p>
         </div>
       </div>
       <div class="footer-bottom">
-        <span>2026 PearlPro Dental Supply. Static demo website.</span>
+        <span>2026 Magenta Dental Supply. Static demo website.</span>
         <span>No online payments are collected.</span>
       </div>
     </div>
